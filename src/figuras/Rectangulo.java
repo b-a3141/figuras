@@ -9,4 +9,8 @@ public class Rectangulo {
 		this.ancho = ancho;
 		this.alto = alto;
 	}
+
+	public double getPerimetro() {
+		return 2*(this.alto + this.ancho);
+	}
 }
